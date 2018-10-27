@@ -1,0 +1,26 @@
+<%-- 
+    Document   : restaurant
+    Created on : 16 oct. 2018, 22:03:26
+    Author     : moumen
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body>
+                <img src="13.JPEG" height="42" width="42"> 
+
+        <form action="servlet" >
+        Qualité de la nourriture :<input type='string' name='n'>
+        Qualité de la salle :<input type='string' name='s'>
+        Qualité du service :<input type='string' name='ser'>
+        <input type="hidden" name="id" value="1">
+                      
+        <input type="submit">
+</form>
+    </body>
+</html>
